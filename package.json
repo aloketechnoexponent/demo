@@ -1,0 +1,46 @@
+{
+  "name": "FundManager",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.587.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "convict": "^5.2.0",
+    "cookie-parser": "~1.4.4",
+    "cron": "^1.7.2",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "express-fileupload": "^1.1.6",
+    "express-validator": "^6.2.0",
+    "git": "^0.1.5",
+    "handlebars": "^4.5.3",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mime": "^2.4.4",
+    "module-alias": "^2.2.1",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "node-pre-gyp": "^0.14.0",
+    "nodemailer": "^6.3.0",
+    "nodemailer-mailgun-transport": "^1.4.0",
+    "pg": "^7.12.1",
+    "randomstring": "^1.1.5",
+    "sequelize": "^5.18.1"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@models": "models",
+    "@routes": "routes",
+    "@middlewares": "middlewares",
+    "@controllers": "controllers",
+    "@filters": "filters",
+    "@config": "config.js",
+    "@helper": "helpers/helper.js"
+  }
+}
